@@ -10,7 +10,6 @@
   <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
 
-
   <style>
     body { font-family: 'Outfit', sans-serif; scroll-behavior: smooth; }
   </style>
@@ -20,29 +19,14 @@
 
 <!-- NAV -->
 
-<!--nav class="fixed top-0 w-full z-50 backdrop-blur bg-white/70">
-  <div class="hidden md:flex gap-10 text-sm text-neutral-700">
-  <a href="index.html" class="hover:text-indigo-500 transition">About</a>
-  <a href="projects.html" class="hover:text-indigo-500 transition">Projects</a>
-  <a href="skills.html" class="hover:text-indigo-500 transition">Skills</a>
-  <a href="experience.html" class="hover:text-indigo-500 transition">Experience</a>
-  <a href="contact.html" class="hover:text-indigo-500 transition">Contact</a>
-</div>
 
-</nav-->
-
-<!--nav class="fixed top-0 w-full z-50 backdrop-blur bg-white/70"-->
-<!--nav class="fixed top-0 w-full z-50 backdrop-blur bg-transparent"-->
-<!--nav class="fixed top-0 w-full z-50 backdrop-blur-md bg-white/30"-->
 <nav class="fixed top-0 w-full z-50 backdrop-blur-lg bg-white/40 supports-[backdrop-filter]:bg-white/30">
   <div class="max-w-7xl mx-auto px-8 py-5 flex justify-between items-center">
-    <!--h1 class="font-medium">
-      <a href="index.html"class=text-[#e75480]>Lakshmi Prashasthi</a>
-    </h1-->
+   
     <h1 class="font-medium">
   <a href="about.html" class="flex items-center gap-3">
     <div class="w-10 h-10 rounded-full bg-[#e75480] flex items-center justify-center">
-      <!--span class="text-[#fdeef2] font-semibold tracking-wide">LP</span-->
+
       <span class="text-[#fdeef2] font-semibold tracking-wide font-['Playfair_Display']">
   LP
 </span>
@@ -59,8 +43,28 @@
       <a href="projects.html" class="hover:text-[#e75480]">Projects</a>
       <a href="skills.html" class="hover:text-[#e75480]">Skills</a>
       <a href="workExp.html" class="hover:text-[#e75480]">Experience</a>
-      <a href="contact.html" class="hover:text-[#e75480]">Contact</a>
+     <div class="relative group">
+  <button class="hover:text-[#e75480] font-medium flex items-center gap-1">
+    More
+    <span class="text-xs">▼</span>
+  </button>
+
+  <div class="absolute left-0 top-full pt-3 opacity-0 invisible group-hover:visible group-hover:opacity-100 transition-all duration-300 transform group-hover:translate-y-0 translate-y-2">
+    
+    <div class="bg-white/90 backdrop-blur-md shadow-xl rounded-xl w-44 border border-pink-100 overflow-hidden">
+      
+      <a href="certifications.html" class="block px-5 py-3 hover:bg-pink-50 hover:text-[#e75480] transition">
+        🎓 Certificates
+      </a>
+
+      <a href="contact.html" class="block px-5 py-3 hover:bg-pink-50 hover:text-[#e75480] transition">
+        📩 Contact
+      </a>
+
     </div>
+
+  </div>
+</div>
   </div>
 </nav>
 
@@ -78,34 +82,57 @@
         Developer
       </h2>
 
-      <p class="text-neutral-500 max-w-md mb-10 text-2xl leading-relaxed">
+      <p class="text-neutral-500 max-w-md mb-8 text-2xl leading-relaxed">
         I design and develop modern digital experiences that blend elegance with efficiency. Passionate about technology, startups, and continuous growth, I enjoy transforming ideas into impactful solutions.
-      </p>
+      </p>      
 
-      <a href="projects.html"
-        class="inline-block px-8 py-3 rounded-full bg-[#e75480] text-white text-lg hover:bg-[#e89eb8] transition">
-        View work
-      </a>
+      <div class="mt-10 flex flex-col items-center">
+
+  <h3 class="text-3xl font-semibold text-[#e75480] mb-6">
+    Resume
+  </h3>
+
+  <div class="flex gap-6 justify-center">
+    
+
+    <a href="pfRes.pdf"
+      class="px-8 py-3 rounded-full border-2 border-[#e75480] text-[#e75480] text-lg hover:bg-[#e75480] hover:text-white transition">
+      Preview
+    </a>
+
+    <a href="pfRes.pdf"
+      download class="px-8 py-3 rounded-full border-2 border-[#e75480] text-[#e75480] text-lg hover:bg-[#e75480] hover:text-white transition">
+      Download
+    </a>
+
+  </div>
+
+</div>
     </div>
+
 
     <!-- VISUAL -->
-    <div class="relative">
-      <div class="w-[360px] h-[360px] rounded-3xl bg-gradient-to-br from-[#e9658d] via-[#fdd5df] to-[#fdeef2] rotate-6 transition-transform"></div>
-      <div class="absolute top-6 left-6 w-[360px] h-[360px] rounded-3xl bg-white/80 backdrop-blur shadow-xl flex items-center justify-center text-center px-10">
-        <p class="text-[#e75480] text-xl leading-relaxed">
-          I enjoy working at the intersection of design and development,
-          where clarity meets creativity.
-        </p>
-      </div>
-    </div>
+<div class="relative w-[450px] h-[450px]">
+  <!-- Image as the card itself -->
+  <div class="absolute top-6 left-20 w-full h-full rounded-3xl overflow-hidden shadow-xl">
+    <img src="resImg62.png" alt="Background" class="w-full h-full object-cover">
+  </div>
+</div>
 
   </div>
 </section>
 
 <!-- FOOTER -->
 <footer class="py-10 text-center text-xs text-neutral-500">
-  © 2025 Lakshmi Prashasthi
+  © 2026 Lakshmi Prashasthi. All rights reserved.
 </footer>
+
+  <script>
+  function toggleResume() {
+    const viewer = document.getElementById("resumeViewer");
+    viewer.classList.toggle("hidden");
+  }
+</script>
 
 </body>
 </html>
